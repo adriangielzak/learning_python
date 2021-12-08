@@ -1,3 +1,7 @@
+'''
+    Part 1
+'''
+
 from __future__ import print_function
 import fixpath
 from colorama import init, Fore, Back, Style
@@ -73,3 +77,57 @@ print(quote.isalnum()) #czy napis jest napisem zliterami i cyframi
     # W ostatnim zadaniu otrzymujesz 4 wartości false.
     # Zwłaszcza 2 ostatnie wyniki mogą Cię dziwić.
     # Nasz napis zawierał spacje, składał się z wielu wyrazów i dlatego nie jest alfa-stringiem ani alfanumerykiem
+
+'''
+    Part 2
+'''
+
+drive = 'c:\\'
+folder = 'scripts\\python\\'
+file = 'myFirstScript.py'
+path = drive + folder + file
+print(path)
+
+justText = 'text with\nnew line'
+print(justText)
+
+rawText = r'text with\nnew line' # r after text
+print(rawText)
+
+quotesTextOne = "Mc Donald's"
+print(quotesTextOne)
+quotesTextTwo = 'Mc Donald\'s'
+print(quotesTextTwo)
+quotesTextThree = 'He said "I like Python!"'
+print(quotesTextThree)
+quotesTextFour = "He said \"I like Python!\""
+print(quotesTextFour)
+
+'''
+    exercises
+'''
+
+#1. Pracujesz w Urzędzie Stanu Cywilnego i ... korzystasz z Pythona. Dziewczyna o imieniu Kasia i nazwisku Sowa
+# wychodzi za mąż za chłopaka o nazwisku Mrugała. Pani Kasia chce zachować oba nazwiska. Zdefiniuj zmienne firstName,
+# famillyName i lastName i przypisz do nich napisy odpowiadające imieniu, nazwisku panieńskim i nowym nazwisku.
+# Następnie utwórz zmienną newName i zapisz w niej wynik konkatenacji (czyli złączenia napisów) dla firstname, spacji,
+# familyName, spacji i lastName. Wyświetl to nowe nazwisko
+firstName = 'Katarzyna'
+familyName = 'Sowa'
+lastName = 'Mrugała'
+newName = firstName + ' ' + familyName + ' ' + lastName
+print(newName)
+
+#2. Zdefiniuj zmienną music o następującej zawartości (są to tytuły i autorzy piosenek z filmu Minionki):
+#   "Universal Fanfare" Jerry Goldsmith "Happy Together" Garry Bonner "I'm a Man" Steve Winwood
+music = '\"Universal Fanfare\" Jerry Goldsmith \"Happy Together\" Garry Bonner \"I\'m a Man\" Steve Winwood'
+print(music)
+
+#3. W powyższym tekście mowa jest o 3 piosenkach. Zmień tekst tak, aby druga i trzecia piosenka podczas wyswietlania były umieszczone w nowej linii.
+musicInNewLine = '\"Universal Fanfare\" Jerry Goldsmith \n\"Happy Together\" Garry Bonner \n\"I\'m a Man\" Steve Winwood'
+print(musicInNewLine)
+
+#4.
+print('(\\(\\')
+print('( -.-)')
+print('O_(")(")')
