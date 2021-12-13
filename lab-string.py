@@ -123,7 +123,8 @@ print(newName)
 music = '\"Universal Fanfare\" Jerry Goldsmith \"Happy Together\" Garry Bonner \"I\'m a Man\" Steve Winwood'
 print(music)
 
-#3. W powyższym tekście mowa jest o 3 piosenkach. Zmień tekst tak, aby druga i trzecia piosenka podczas wyswietlania były umieszczone w nowej linii.
+#3. W powyższym tekście mowa jest o 3 piosenkach. Zmień tekst tak, aby druga i trzecia piosenka podczas wyswietlania
+#   były umieszczone w nowej linii.
 musicInNewLine = '\"Universal Fanfare\" Jerry Goldsmith \n\"Happy Together\" Garry Bonner \n\"I\'m a Man\" Steve Winwood'
 print(musicInNewLine)
 
@@ -167,7 +168,8 @@ At the 41st British Academy Film Awards in 1988, Monty Python received the BAFTA
 #2. Skonwertuj tekst do dużych liter i wyświetl go. Zrób to w jednej instrukcji.
 print(article.upper())
 
-#3. Wyświetl tekst zamieniając 'monty' na 'flying'. Ponieważ python rozpoznaje małe i duże litery przed zamianą skonwertuj go na małe litery. Ponownie postaraj się to zrobić w jednym poleceniu.
+#3. Wyświetl tekst zamieniając 'monty' na 'flying'. Ponieważ python rozpoznaje małe i duże litery przed zamianą
+#   skonwertuj go na małe litery. Ponownie postaraj się to zrobić w jednym poleceniu.
 print(article.lower().replace('monty', 'flying'))
 
 #4. Rozbij tekst na słowa ze względu na spacje i wyświetl tą listę.
@@ -200,7 +202,8 @@ print("The best hits of '80s!!!")
 #   w tym celu:
 
 #   -najpierw zadeklaruj zmienną amountPLN i wpisz do niej wartość 234
-#   -następnie wyświetl teksty rozdzielając wartości tabulatorem, tak aby to co zostanie wypisane na ekranie przypominało tabelkę (skorzystaj do tego z kilku poleceń print, jednolinijkowy print byłby zbyt trudny do zrozumienia)
+#   -następnie wyświetl teksty rozdzielając wartości tabulatorem, tak aby to co zostanie wypisane na ekranie
+#       przypominało tabelkę (skorzystaj do tego z kilku poleceń print, jednolinijkowy print byłby zbyt trudny do zrozumienia)
 #   -wartości w kolumnie amount wylicz dzieląc amountPLN przez aktualny kurs USD i EUR (w tym przykładzie są to 3.65 i 4.23)
 amountPLN = 234
 print('cur', '\texchange', 'amount')
