@@ -146,3 +146,16 @@ print("Is the light good:",is80PercentLight)
 print("Is sun low:       ",isDirectLight)
 print("Is it rainy:      ",isRainy)
 print("TURN LIGHTS ON:   (False)",turnLightsOn)
+
+############################3
+
+presence = 0.85
+note = 3.5
+finalWorkOK = False
+print('you need to be present and have good notes or do the final work:', presence >= 0.8 and note >= 3 or finalWorkOK)
+print('you need to be present and have good notes and do the final work:', presence >= 0.8 and note >= 3 and finalWorkOK)
+presence = 0.4
+note = 2.5
+finalWorkOK = True
+print('you need to be present and have good notes or do the final work:', presence >= 0.8 and note >= 3 or finalWorkOK)
+print('you need to be present and have good notes and do the final work:', presence >= 0.8 and note >= 3 and finalWorkOK)
